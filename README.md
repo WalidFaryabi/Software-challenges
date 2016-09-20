@@ -1,1 +1,1 @@
-"# Software challenges completed in multiple languages. For fun and educational purpose" 
+# Software challenges completed in multiple languages. For fun and educational purpose
