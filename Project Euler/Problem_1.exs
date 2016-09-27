@@ -4,7 +4,7 @@ defmodule MultipleOf3And5 do
 
     Find the sum of all the multiples of 3 or 5 below 1000.
   """
-  def summarizeMultiples(sum,n) when n<=1 do
+  def summarizeMultiples(sum,1) do
     IO.puts sum
   end
 
