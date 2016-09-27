@@ -20,6 +20,7 @@ defmodule LargestPrimeFactor do
           largest_divisor
         true->
 
+
         end
         number = number/current_divisor
         current_divisor = 2
@@ -73,8 +74,8 @@ defmodule LargestPrimeFactor do
       end
   end
 end
-IO.puts LargestPrimeFactor.findBiggestPrime(13195,13195-1,0 )
+#IO.puts LargestPrimeFactor.findBiggestPrime(13195,13195-1,0 )
 
-#Io.puts LargestPrimeFactor.improvedPrimeFinder(13195)
+
 Io.puts LargestPrimeFactor.improvedPrimeFinder(600851475143)
 #IO.puts LargestPrimeFactor.findBiggestPrime(600851475143,600851475143-1,0 )

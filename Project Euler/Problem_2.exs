@@ -42,7 +42,7 @@ defmodule EvenFibonacciNumbers do
     temporary_container = number_2
     number_2 = 2*number_1 + 3*number_2
     number_1 = number_1 + 2 * temporary_container
-    sum_even = sum_even + tem
+    sum_even = sum_even + temporary_container
     improvedFibonacci(sum_even,number_1,number_2)
   end
 
