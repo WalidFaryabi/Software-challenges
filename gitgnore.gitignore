@@ -1,2 +1,5 @@
 #BEAM BYTE file
 *.beam
+
+#Java file
+*.class
